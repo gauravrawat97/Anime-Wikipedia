@@ -1,0 +1,26 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+body {
+  padding-top: 60px;
+}
+.particles {
+  position: fixed;
+  top: 5vw;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  /* z-index: 1; */
+
+  @media only screen and (max-width: 44.375em) {
+    top: 50px;
+  }
+}
+
+.spinner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
